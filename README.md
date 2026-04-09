@@ -104,32 +104,8 @@ java -jar target/calculator-practice1-1.0.0.jar factorial 5
 java -jar target/calculator-practice1-1.0.0.jar prime 17
 ```
 
-## Troubleshooting
-
-### Common Issues
-1. **Mockito warnings**: The warnings about dynamic agent loading are expected and don't affect functionality
-2. **GitHub Actions**: Ensure you use `actions/setup-java@v4` with `distribution: 'temurin'`
-
-### For GitHub Actions Workflow
-```yaml
-- name: Setup Java 21
-  uses: actions/setup-java@v4
-  with:
-    java-version: '21'
-    distribution: 'temurin'
-```
-
-## For Students
-1. **Fork** this repository
-2. **Clone** your fork locally
-3. **Explore** the code and run the tests
-4. **Create** your first GitHub Actions workflow
-5. **Experiment** with different configurations
-
 ---
 **Version:** 1.0.0  
 **Java:** 21  
 **Maven:** 3.8+  
 **Author:** IyPS Practice - University of Málaga
-
-**Note**: This project demonstrates modern Java features. For maximum tool compatibility in production, consider Java 17 (LTS).
