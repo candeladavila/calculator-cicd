@@ -10,6 +10,8 @@ Sample project to show CI/CD with GitHub Actions. Implements a basic calculator 
 - ✅ Mockito 5.23.0 for mocking (configured for Java 21)
 - ✅ Executable application with CLI interface
 
+
+
 ## Important Notes for Java 21
 This project targets Java 21. Java 21 is an LTS release with broad tooling support; the repository and CI are configured for Java 21.
 
