@@ -28,7 +28,7 @@ public class Calculator {
    * @return the subtraction of a - b
    */
   public double subtract(double a, double b) {
-    return a - b;
+    return a - b
   }
 
   /**
