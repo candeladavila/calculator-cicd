@@ -18,8 +18,8 @@ This short exercise illustrates the CI/CD concepts covered in the lecture. The g
 
 2. **Clone the course repository** to your machine:
    ```bash
-   git clone https://github.com/<professor>/<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/IyPSUMA/CICDCalculator.git
+   cd CICDCalculator
    ```
 
 3. **Add your own repository as a second remote:**
